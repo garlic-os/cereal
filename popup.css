@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+input {
+	padding-left: 40px;
+	width: 120px;
+	height: 33px;
+	font-size: 16pt;
+}
+
+label {
+	font-size: 10pt;
+}
+
+.input-container {
+	position: relative;
+}
+
+#clear-button {
+	position: absolute;
+	width: 33px;
+	height: 32px;
+	top: -9px;
+	left: 1px;
+	text-align: center;
+	line-height: 1.35;
+	font-size: 16pt;
+	cursor: pointer;
+}
+
+#clear-button:hover {
+	background-color: rgb(182, 182, 182);
+}
+
+#clear-button:active {
+	background-color: rgb(155, 155, 155);
+}
